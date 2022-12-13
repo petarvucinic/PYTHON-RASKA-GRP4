@@ -266,6 +266,141 @@
 
 # --------------------------
 
+# br1 = int(input("unesite neki broj: "))
+# br2 = int(input("unesite neki broj: "))
+# br3 = int(input("unesite neki broj: "))
+
+# min = br1 
+# if br2 < min:
+#     min = br2 
+# if br3 < min:
+#     min = br3 
+# print(f"najmanji od tri broja je {min}")
+
+
+# -------------------
+
+
+# #   i     range(0, 5)
+# for i in range(5):
+#     # print("python")
+#     print(i)
+
+# rec = "aaaaa"
+#      01234
+
+
+# for i in range(0, 10, 2):
+#     print(i)
+
+
+# for i in range(10, 0, -1):
+#     print(i)
+
+# rec = "python"
+# #      012345
+
+# # for i in rec:
+# #     print(i)
+# #                 range(6)
+# #             range(0, 6)
+# for i in range(len(rec)):
+#     #     rec[0]
+#     # rec[1]
+#     print(rec[i])
+
+
+# -------------------------
+
+
+# for i in range(1, 11):
+#     if i % 2 == 0:
+#         print(i)
+
+
+# ----------------------
+
+# suma = 0
+# #  
+# for i in range(1, 101):
+#     #  1     0  + 1
+#     #   3     1  + 2
+#     #  6      3  + 3
+
+#     suma = suma + i 
+
+# print(suma)
+
+
+# ---------------------------
+
+# broj = int(input("unesite neki broj: "))
+# # 1234567890
+# sumaCifara = 0
+
+# brrrr = str(broj)
+
+# for i in range(len(brrrr)):
+#     # print(brrrr[i])
+#     sumaCifara = sumaCifara + int(brrrr[i])
+# print(sumaCifara)
+
+
+# for i in broj:
+#     #                  0     +  5
+#     sumaCifara = sumaCifara + int(i)
+# print(sumaCifara)
+
+
+
+# suma = 4
+
+# # suma = suma + 4
+# suma %= 4
+
+# print(suma)
+
+
+# -----------------------------------------
+
+# 5
+# 5*4*3*2*1
+
+# # 5
+# broj = int(input("unesite neki broj: "))
+# fak = 1
+# #                5   0  -1
+# for i in range(broj, 0, -1):
+#     # fak *= i 
+#     fak = fak * i
+# print(fak)
+
+
+# --------------------
+
+# suma = 0
+# for i in range(1000):
+#     if i % 3 == 0 or i % 5 == 0:
+#         suma += i 
+# print(suma)
+
+# ------------
+
+# x = 1
+# y = 1
+
+# suma = 0
+# for i in range(4*10**6): 
+#     # a = x 
+#     # x = y 
+#     # y = x + a
+#     x, y = y, x+y
+#     if y % 2 == 0:
+#         suma += y
+# print(suma)
+
+
+
 
 
 
