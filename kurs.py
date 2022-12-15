@@ -400,16 +400,98 @@
 # print(suma)
 
 
+# ----------------------------------------
+
+
+# broj=2**1000
+# suma = 0
+# for i in str(broj): 
+#     suma += int(i)
+# print(suma)
+
+# -------------------------
+
+# s = 0
+# for i in range(1, 1001):
+#     s = s + i**i
+# print(str(s)[-10::])
+
+# ---
+
+# s=0
+# brojstr=str(broj)
+# for i in range(len(brojstr)):
+#     s=s+int(brojstr[i])
+# print(s)
+
+
+# -------------
+
+# for i in range(1, 11):
+#     if i == 7:
+#         # continue
+#         break
+#     print(i)
+
+# ------------------
+
+
+# 1
+# 22
+# 333
+# 4444
+# 55555
+# 666666
+# 7777777
+# 88888888
+# 999999999
+
+# for i in range(1, 10):
+#     print(i * str(i))
+
+
+# ----------------------------
+
+# for i in range(1, 10):
+#     for j in range(1, 10):
+#         print(i, j)
 
 
 
+# ---
 
 
-
-
-
-
+# sum=0
+# # 546
+# for i in range(2, 4**10):
+#     sum1=0 
+#     # for j in "546"
+#     # 5   4   6
+#     for j in str(i):
+#         # 
+#         sum1 += int(j)**5
+#         # sum1=sum1+int(j)**5
+#     if i==sum1:
+#         sum=sum+i
+# print(sum)
  
+
+#  -
+
+# for i in range(1, 11):
+#     for j in range(1, 11):
+#         print(i * j, end="\t")
+#     print()
+
+# flag = 0
+# for i in range(100, 1000):
+#     for j in range(100, 1000):
+#         if str(i*j) == str(i*j)[::-1]:
+#             if flag < i * j:
+#                 flag = i * j
+# print(flag)
+
+
 
 
 
